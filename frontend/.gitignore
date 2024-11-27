@@ -1,0 +1,32 @@
+# Despliegue
+/dist
+/build
+/out
+
+# Dependencias
+node_modules
+
+# Bases de datos
+db/*.sqlite
+db/*.db
+
+# Archivos temporales
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Cachés
+tmp
+*.pid
+*.seed
+
+# Archivos de configuración local
+config.local.js
+.env*
+
+# Archivos generados por IDE
+.idea
+.vscode
+
+# Archivos de caché
+.cache
